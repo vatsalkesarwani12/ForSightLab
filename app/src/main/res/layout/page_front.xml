@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layf"
+    android:orientation="vertical">]
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Experiments"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:textColor="#8B4513"
+        android:padding="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_marginBottom="42dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/ex1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/p"
+                android:onClick="exp1" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ex1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="1. To determine the energy band gap of a given semiconductor material by four probe method" />
+
+
+            <Button
+                android:id="@+id/ex2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/p"
+                android:onClick="exp2" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_alignLeft="@+id/ex2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="2. To study the variation of magnetic field with distance along the axis of current car coil and then to estimate the radius of the coil." />
+
+            <Button
+                android:id="@+id/ex3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t2"
+                android:background="@drawable/p"
+                android:onClick="exp3" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:layout_alignLeft="@id/ex3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="3. To verify Stefan's law by electrical method. " />
+
+            <Button
+                android:id="@+id/ex4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t3"
+                android:background="@drawable/p"
+                android:onClick="exp4" />
+
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t3"
+                android:layout_alignLeft="@+id/ex4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="4. To determine the specific resistance of a given wire by Carey Foster's Bridge and evaluates the end correction S1 and S2. " />
+
+            <Button
+                android:id="@+id/ex5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t4"
+                android:background="@drawable/p"
+                android:onClick="exp5" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t4"
+                android:layout_alignLeft="@+id/ex5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="5. To determine the wavelength of monochromatic sodium light by using Newton's Rings." />
+
+
+            <Button
+                android:id="@+id/ex6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t5"
+                android:background="@drawable/p"
+                android:onClick="exp6" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t5"
+                android:layout_alignLeft="@+id/ex6"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="6. To determine the focal length of the combination of two thin convergent lenses separated by distance with the help of a Nodal - Slide and verify the formula 1/F=1/f1 +1/f2 - x/f1f2" />
+
+            <Button
+                android:id="@+id/ex7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t6"
+                android:background="@drawable/p"
+                android:onClick="exp7" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t6"
+                android:layout_alignLeft="@+id/ex7"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="7. To determine the specific rotation of an optically active (cane sugar) solution by Polarimeter. " />
+
+            <Button
+                android:id="@+id/ex8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t7"
+                android:background="@drawable/p"
+                android:onClick="exp8" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t7"
+                android:layout_alignLeft="@+id/ex8"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="8. To determine the Electro Chemical Equivalent of copper using a Tangent Galvanometer (TG). " />
+
+
+            <Button
+                android:id="@+id/ex9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t8"
+                android:background="@drawable/p"
+                android:onClick="exp9" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t8"
+                android:layout_alignLeft="@+id/ex9"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:text="9. To determine the wavelength of spectral lines using plane transmission grating. " />
+
+
+            <Button
+                android:id="@+id/ex10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t9"
+                android:background="@drawable/p"
+                android:onClick="exp10" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t9"
+                android:layout_alignLeft="@+id/ex10"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingBottom="20dp"
+                android:textColor="#000000"
+                android:text="10. Measurement of Numerical Aperture (NA) of optical fiber." />
+
+            <ImageView
+                android:id="@+id/p1"
+                android:layout_width="316dp"
+                android:layout_height="247dp"
+                android:layout_below="@+id/t10"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="50dp"/>
+
+            <Button
+                android:id="@+id/nxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p1"
+                android:text="Graph"
+                android:layout_centerInParent="true"
+                android:textColor="#000000"
+                android:layout_marginBottom="25dp"
+                android:background="#ffffff" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layf"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="monospace"
+        android:text="Graphs"
+        android:textColor="#8B4513"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_marginBottom="42dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/g1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/p"
+                android:layout_marginBottom="10dp"
+                android:onClick="gg1" />
+
+            <TextView
+                android:id="@+id/tg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/g1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Graph For Experiment !"
+                android:layout_marginBottom="10dp"/>
+
+
+
+             <Button
+                 android:id="@+id/g2"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginTop="0dp"
+                 android:background="@drawable/p"
+                 android:layout_below="@+id/g1"
+                 android:layout_marginBottom="10dp"
+                 android:onClick="gg2" />
+
+            <TextView
+                android:id="@+id/tg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tg1"
+                android:layout_alignLeft="@+id/g2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Graph For Experiment 2"
+                android:layout_marginBottom="10dp" />
+
+
+            <Button
+                android:id="@+id/g3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/p"
+                android:onClick="gg3"
+                android:layout_below="@+id/g2"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tg2"
+                android:layout_alignLeft="@+id/g3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Graph For Experiment 3"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/g5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/p"
+                android:layout_below="@+id/g3"
+                android:onClick="gg5"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tg3"
+                android:layout_alignLeft="@+id/g5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Graph For Experiment 5"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/g7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/p"
+                android:layout_below="@+id/g5"
+                android:onClick="gg7"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tg7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tg5"
+                android:layout_alignLeft="@+id/g7"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Graph For Experiment 7"
+                android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:id="@+id/pg1"
+                android:layout_width="316dp"
+                android:layout_height="247dp"
+                android:layout_below="@+id/tg7"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/nxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard Answer"
+                android:layout_below="@+id/pg1"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:layout_marginBottom="40dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

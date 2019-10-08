@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layf">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Standard Answers"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="monospace"
+        android:textColor="#8B4513"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="100dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cc"
+                android:layout_width="352dp"
+                android:layout_height="537dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/std" />
+
+            <Button
+                android:id="@+id/nxt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constant Values"
+                android:layout_marginLeft="140dp"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:layout_marginBottom="40dp" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
