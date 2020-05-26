@@ -16,7 +16,7 @@ public class page_standard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.standard);
 
-        button= (Button) findViewById(R.id.nxt3);
+        button= findViewById(R.id.nxt3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

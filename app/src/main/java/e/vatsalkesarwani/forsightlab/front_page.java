@@ -164,7 +164,7 @@ public class front_page extends AppCompatActivity {
     private void displays(String s1)
     {
         Toast.makeText(front_page.this,"Scroll Down For Circuit Diagram",Toast.LENGTH_LONG).show();
-        ImageView expimageView=(ImageView) findViewById(R.id.p1) ;
+        ImageView expimageView= findViewById(R.id.p1) ;
         int imageResource=getResources().getIdentifier(s1,null,this.getPackageName());
         expimageView.setImageResource(imageResource);
     }

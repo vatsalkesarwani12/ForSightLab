@@ -16,13 +16,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button enter = findViewById(R.id.go);
-        enter.setOnClickListener(new View.OnClickListener()
-                                 {
+        enter.setOnClickListener(new View.OnClickListener() {
                                      @Override
-                                     public void onClick(View v)
-                                     {
-                                         Toast.makeText(MainActivity.this,"Welcome To Forsight Lab",Toast.LENGTH_LONG).show();
-                                         Intent intent = new Intent(MainActivity.this,front_page.class);
+                                     public void onClick(View v) {
+                                         Toast.makeText(MainActivity.this, "Welcome To Forsight Lab", Toast.LENGTH_LONG).show();
+                                         Intent intent = new Intent(MainActivity.this, front_page.class);
                                          startActivity(intent);
 
                                      }

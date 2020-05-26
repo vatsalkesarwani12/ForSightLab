@@ -59,7 +59,7 @@ public class page_graph extends AppCompatActivity {
     private void displays(String s1)
     {
         Toast.makeText(page_graph.this,"Scroll Down For Graph",Toast.LENGTH_LONG).show();
-        ImageView gra=(ImageView) findViewById(R.id.pg1) ;
+        ImageView gra= findViewById(R.id.pg1) ;
         int imageResource=getResources().getIdentifier(s1,null,this.getPackageName());
         gra.setImageResource(imageResource);
     }
